@@ -1,0 +1,7 @@
+main: io.github.aleksandarharalanov.pvptweaks.PvPTweaks
+version: 1.0.0
+name: PvPTweaks
+author: Beezle
+website: github.com/AleksandarHaralanov/PvPTweaks
+description: Implements additional tweaks to PvP.
+depend: [WorldEdit, WorldGuard]
