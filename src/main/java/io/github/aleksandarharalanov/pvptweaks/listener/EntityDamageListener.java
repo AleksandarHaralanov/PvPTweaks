@@ -1,7 +1,6 @@
 package io.github.aleksandarharalanov.pvptweaks.listener;
 
 import com.sk89q.worldedit.Vector;
-import com.sk89q.worldedit.bukkit.WorldEditPlugin;
 import com.sk89q.worldguard.bukkit.BukkitUtil;
 import com.sk89q.worldguard.bukkit.WorldGuardPlugin;
 import com.sk89q.worldguard.protection.flags.DefaultFlag;
@@ -34,12 +33,6 @@ public class EntityDamageListener extends EntityListener {
         WorldGuardPlugin worldGuard = (WorldGuardPlugin) getServer().getPluginManager().getPlugin("WorldGuard");
         if (worldGuard == null || !worldGuard.isEnabled()) {
             logWarning("[PvPTweaks] PvP bow fix requires WorldGuard, but it is missing or disabled.");
-            return;
-        }
-
-        WorldEditPlugin worldEdit = (WorldEditPlugin) getServer().getPluginManager().getPlugin("WorldEdit");
-        if (worldEdit != null && worldEdit.isEnabled()) {
-            logWarning("[PvPTweaks] PvP bow fix requires WorldEdit, but it is missing or disabled.");
             return;
         }
 
