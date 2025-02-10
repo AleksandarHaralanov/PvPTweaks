@@ -3,9 +3,7 @@
 ## Features
 **PvPTweaks** is a Minecraft plugin designed for servers running version b1.7.3.
 
-Implements additional tweaks to PvP that hook with WorldEdit and WorldGuard.
-
-The plugin is entirely configurable.
+Implements additional tweaks to PvP to further improve safety regulations.
 
 ---
 ## Contributing Code & Reporting Issues
