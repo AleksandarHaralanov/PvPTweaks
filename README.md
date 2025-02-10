@@ -24,9 +24,7 @@ If you'd like additional peace of mind, you're welcome to scan the `.jar` file u
 ## Requirements
 Your server must be running one of the following APIs: CB1060-CB1092, [Project Poseidon](https://github.com/retromcorg/Project-Poseidon) or [UberBukkit](https://github.com/Moresteck/Project-Poseidon-Uberbukkit).
 > [!CAUTION]
-> It also needs to be running both [**WorldEdit**](https://github.com/AleksandarHaralanov/PvPTweaks/raw/refs/heads/master/libs/WorldEdit.jar) and [**WorldGuard**](https://github.com/AleksandarHaralanov/PvPTweaks/raw/refs/heads/master/libs/WorldGuard.jar) for the plugin to function.
-> 
-> Click on the names to download each.
+> It also needs to be running [**WorldGuard**](https://github.com/AleksandarHaralanov/PvPTweaks/raw/refs/heads/master/libs/WorldGuard.jar) for the plugin to function.
 
 ---
 ## Configurations
